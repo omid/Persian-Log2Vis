@@ -1,0 +1,35 @@
+*********************************************
+Persian Log2Vis version 1 beta 1 - INSTALL
+*********************************************
+
+Thank you for downloading Persian Log2Vis. This text will guide you 
+through the basics of installation.
+
+TABLE OF CONTENT :
+
+  1. REQUIREMENTS
+  2. TROUBLESHOOTING
+
+
+REQUIREMENTS
+============
+
+To install Persian Log2Vis on a computer, whether locally or remotely, 
+you need the following on your machine :
+
+1. One of the following Operating systems :
+
+        Linux / BSD / Unix
+        Windows
+        MacOs X.
+
+1. A web server (We recommend Apache, but others should work too),
+
+2. PHP scripting language (version 4.1 or later), configured with the 
+   following modules : mbstring, fribidi, gd2.
+
+TROUBLESHOOTING
+===============
+
+1. If you want to submit a bug, please email me at <webmaster@oxygenws.com>
+   or post a comment in my blog at <http://oxygenws.com/blog/archives/33-PHP.html>.
