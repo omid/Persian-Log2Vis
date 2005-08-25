@@ -4,8 +4,8 @@ require_once('persian_log2vis.php');
 
 if(!isset($_GET['submit'])){
     echo '<html dir="rtl">
-    <head><title>Persian_log2vis Example</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <head><title>Persian_log2vis Example</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         </head><body>
         <form method="get">
         <input type="text" name="text" value="پروژه persian_log2vis نسخه 1 بتا 1">
