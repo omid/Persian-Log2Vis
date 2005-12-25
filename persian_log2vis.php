@@ -14,7 +14,7 @@
 // Authors: Omid Mottaghi Rad <webmaster@oxygenws.com>
 //----------------------------------------------------------------------
 
-function persian_log2vis(&$string, $eraab = 1, $encoding='utf8'){
+function persian_log2vis(&$str, $eraab = 1, $encoding='utf8'){
     
     // encoding could be one of the following phrases
     // 'utf8', 'iso8859_6'
@@ -38,7 +38,7 @@ function persian_log2vis(&$string, $eraab = 1, $encoding='utf8'){
             break;
     }
 
-    $text = $string;    
+    $text = $str;
     $str='';
     $ch='';
     
@@ -93,6 +93,6 @@ function persian_log2vis(&$string, $eraab = 1, $encoding='utf8'){
             }
         }
     }
-    $str = fribidi_log2vis($str, FRIBIDI_RTL, FRIBIDI_CHARSET_UTF8);
+    $str = fribidi_log2vis($str, FRIBIDI_RTL, $fbd);
 }
 ?>

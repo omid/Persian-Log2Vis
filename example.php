@@ -8,12 +8,12 @@ if(!isset($_GET['submit'])){
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         </head><body>
         <form method="get">
-        <input type="text" name="text" value="پروژه persian_log2vis نسخه 1 بتا 1">
+        <input type="text" name="text" value="پروژه persian_log2vis نسخه 1">
         <input type="submit" name="submit" value="submit">            
         </body></html>';
 }else{
     $text = $_GET['text'];
-    persian_log2vis($text);
+    persian_log2vis($text, 0);
     
     // Set the content-type
     header("Content-type: image/png");
