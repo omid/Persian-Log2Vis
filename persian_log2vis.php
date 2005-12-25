@@ -14,7 +14,7 @@
 // Authors: Omid Mottaghi Rad <webmaster@oxygenws.com>
 //----------------------------------------------------------------------
 
-function persian_log2vis(&$string, $eraab = 1, $encodig='utf8'){
+function persian_log2vis(&$string, $eraab = 1, $encoding='utf8'){
     
     // encoding could be one of the following phrases
     // 'utf8', 'iso8859_6'
