@@ -39,9 +39,39 @@
         'ؤ' => array ('ﺆ', 'ﺆ', 'ﺅ'),
         'إ' => array ('ﺈ', 'ﺈ', 'ﺇ'),
         'ئ' => array ('ﺊ', 'ﺌ', 'ﺋ'),
-        'ة' => array ('ﺔ', 'ﺘ', 'ﺗ')
+        'ة' => array ('ﺔ', 'ﺘ', 'ﺗ'),
+        'ﻻ' => array ('ﻼ', 'ﻼ', 'ﻻ'),
+        'ﻵ' => array ('ﻶ', 'ﻶ', 'ﻵ'),
+        'ﻹ' => array ('ﻺ', 'ﻺ', 'ﻹ'),
+        'ﻷ' => array ('ﻸ', 'ﻸ', 'ﻷ'),
+        'اﷲ' => array ('اﷲ', 'اﷲ', 'اﷲ'),
+        'ﷲ' => array ('ﷲ', 'ﷲ', 'ﷲ')
     );
     
-    $sp_chars = array ('آ', 'ا', 'د', 'ذ', 'ر', 'ز', 'ژ', 'و', 'أ', 'إ', 'ؤ');
+    $sp_chars = array ('آ', 'ا', 'د', 'ذ', 'ر', 'ز', 'ژ', 'و', 'أ', 'إ', 'ؤ', 'ﻻ', 'ﻵ', 'ﻹ', 'ﻷ', 'ﷲ', 'ﷲ', '‌' /*zwnj*/);
     $eb_chars = array ('ً', 'ٌ', 'ٍ', 'َ', 'ُ', 'ِ', 'ّ', 'ٴ');
+    
+    // allah characters
+    $allah_chars = array ('الله', 'لله');
+    
+    $allah1_char = 'اﷲ';
+    $allah2_char = 'ﷲ';
+    
+    // alef-lam characters
+    $lam_char = 'ل';
+    $alef_chars = array ('آ', 'ا', 'أ', 'إ');
+    
+    $lam_alef_chars = array(
+    	'لا' => 'ﻻ',
+    	'لآ' => 'ﻵ',
+    	'لأ' => 'ﻷ',
+    	'لإ' => 'ﻹ'
+    );
+    
+    // non printable but efficient characters
+    $non_printable = array ('‌' /*zwnj*/);
+    
+    // non printible and not efficient characters
+    // if you want to ignore some characters from output, add them here
+		$ignore_chars = array();
 ?>
