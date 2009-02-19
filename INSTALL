@@ -1,5 +1,5 @@
 *********************************************
-Persian Log2Vis version 1 beta 2 - INSTALL
+Persian Log2Vis version 2 - INSTALL
 *********************************************
 
 Thank you for downloading Persian Log2Vis. This text will guide you 
@@ -19,14 +19,12 @@ you need the following on your machine :
 
 1. One of the following Operating systems :
 
-        Linux / BSD / Unix
-        Windows
-        MacOs X.
+    Linux / BSD / Unix
+    Windows
 
-1. A web server (We recommend Apache, but others should work too),
+2. A web server (We recommend Apache, but others should work too),
 
-2. PHP scripting language (version 4.1 or later), configured with the 
-   following modules : mbstring, fribidi, gd2.
+3. PHP scripting language (version 5.0 or later).
 
 TROUBLESHOOTING
 ===============

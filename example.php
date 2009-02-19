@@ -8,10 +8,11 @@ if(!isset($_GET['submit'])){
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         </head><body>
         <form method="get">
-        <textarea name="text">سلام
-چطوری؟
-بسم الله الرحمن الرحیم
-سن من ۵۰ سال می‌باشد
+        <textarea name="text">ایــن متن برای تست می‌باشد:
+بالا
+فَعّال
+الف abc ب
+۲۰ و 20 - ۳۰ و 30
 </textarea>
         <input type="submit" name="submit" value="submit">            
         </body></html>';
@@ -27,10 +28,11 @@ if(!isset($_GET['submit'])){
     $black = imagecolorallocate($im, 0, 0, 0);
     
     // Replace path by your own font path
-    $font = '/home/omid/.fonts/arial.ttf';
+    //$font = './FreeFarsi.ttf';
+    $font = './DejaVuSans.ttf';
     
     // Add the text
-    imagettftext($im, 20, 0, 10, 30, $white, $font, $text);
+    @imagettftext($im, 20, 0, 10, 30, $white, $font, $text);
     
     // Set the content-type
     header("Content-type: image/png");
