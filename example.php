@@ -18,7 +18,7 @@ if(!isset($_GET['submit'])){
         </body></html>';
 }else{
     $text = $_GET['text'];
-    persian_log2vis($text, 0);
+    persian_log2vis($text);
     
     // Create the image
     $im = imagecreatetruecolor(400, 200);
@@ -28,7 +28,6 @@ if(!isset($_GET['submit'])){
     $black = imagecolorallocate($im, 0, 0, 0);
     
     // Replace path by your own font path
-    //$font = './FreeFarsi.ttf';
     $font = './DejaVuSans.ttf';
     
     // Add the text
