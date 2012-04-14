@@ -1,8 +1,8 @@
 <?php
 //----------------------------------------------------------------------
-// Persian Log2Vis version 2 Beta 1
+// Persian Log2Vis version 2
 //----------------------------------------------------------------------
-// Copyright (c) 2009 Oxygen Web Solutions <http://oxygenws.com>
+// Copyright (c) 2012 Oxygen Web Solutions <http://oxygenws.com>
 //----------------------------------------------------------------------
 // This program is under the terms of the GENERAL PUBLIC LICENSE (GPL)
 // as published by the FREE SOFTWARE FOUNDATION. The GPL is available
@@ -43,4 +43,4 @@ function persian_log2vis(&$str)
     
     $str = implode("\n", $str);
 }
-?>
+
