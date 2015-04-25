@@ -23,7 +23,7 @@
  */
 function persian_log2vis(&$str)
 {
-    include('bidi.php');
+    include(__DIR__ . '/bidi.php');
     
     $bidi = new bidi();
     
