@@ -23,7 +23,7 @@
  */
 function persian_log2vis(&$str)
 {
-    require_once(__DIR__ . '/bidi.php');
+    include_once('bidi.php');
     
     $bidi = new bidi();
     
@@ -32,7 +32,7 @@ function persian_log2vis(&$str)
     $str = array();
     
     foreach($text as $line){
-        $chars = $bidi->utf8Bidi($bidi->UTF8StringToArray($line), 'R');
+        $chars = $bidi->utf8Bidi($bidi->UTF8StringToArray($line), 'AL');
         $line = '';
         foreach($chars as $char){
             $line .= $bidi->unichr($char);
