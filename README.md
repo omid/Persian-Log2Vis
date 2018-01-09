@@ -23,4 +23,4 @@ you need the following on your machine :
    or post a comment in my blog at <http://oxygenws.com/blog/archives/33-PHP.html>.
 
 #### Support me by clicking on the following link:
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/yi176dB11vaBowCMj8pQ4Ffs/omid/Persian-Log2Vis'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/yi176dB11vaBowCMj8pQ4Ffs/omid/Persian-Log2Vis.svg' /></a>
+
